@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(
         name = "MainServlet",
-        urlPatterns = {"/"}
+        urlPatterns = {"/MainServlet"}
     )
 public class MainServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
